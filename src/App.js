@@ -242,13 +242,15 @@ function App() {
 
   return (
     <div className="App">
-
+    <div className="body">
 
       <title >ChargePoint</title>
       <ChargeNav></ChargeNav>
 
       <PointTable></PointTable>
+      </div>
       <div className="gray-box-32"></div>
+      <div className="body">
       <div className="bold-20px top-19px">결제 수단</div>
       <Kakaopay></Kakaopay>
 
@@ -259,6 +261,7 @@ function App() {
         
   <TermCheckBox></TermCheckBox>
   <button onClick="MessageInvoker.postMessage('여기에 명령어를 적어주세요');" className='buy-button top-39px'>결제하기</button>
+  </div>
 
 
 

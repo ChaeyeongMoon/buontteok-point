@@ -5,11 +5,12 @@
 }
 
 .App {
-  margin-left: 16px;
-  margin-right: 16px;
   font-family: 'Noto Sans KR';
 }
-
+.body{
+  margin-left: 16px;
+  margin-right: 16px;
+}
 .header{
   padding-top: 8px;
   padding-bottom: 12px;
