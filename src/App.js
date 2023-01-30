@@ -258,7 +258,7 @@ function App() {
   </div>
         
   <TermCheckBox></TermCheckBox>
-  <button className='buy-button top-39px'>결제하기</button>
+  <button onClick="MessageInvoker.postMessage('여기에 명령어를 적어주세요');" className='buy-button top-39px'>결제하기</button>
 
 
 
